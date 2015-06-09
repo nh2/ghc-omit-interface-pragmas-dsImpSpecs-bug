@@ -1,0 +1,11 @@
+cabal-version:  >=1.8
+name:           ghc-omit-interface-pragmas-dsImpSpecs-bug
+version:        0.1.0.0
+build-type:     Simple
+
+library
+    exposed-modules: B
+    other-modules:   A
+    build-depends:   base
+    hs-source-dirs:  src
+    ghc-options:     -Wall
